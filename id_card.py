@@ -17,12 +17,12 @@ mydb = client.id #join to the database'''
 def add_client(text, id1, ht, start, mn,avatar):  #define a function of adding a data to table
         mydb.forsk_clients.insert(
                 {
-                "Name" : text,   #For Name
-                "ID" : id1,         #For ID number
-                "Branch" : ht,      #For Branch
-                "Program" : start,  #For Program Type
-                "DOB" : mn,     #For setting the Date of Birth
-                "Image" : avatar,   #For sending the users image to database
+                "Name" : ball,   #For Name
+                "ID" : 187846817,         #For ID number
+                "Branch" : CSE,      #For Branch
+                "Program" : Developer,  #For Program Type
+                "DOB" : 09-06-2006,     #For setting the Date of Birth
+                "Image" : https://pbs.twimg.com/profile_images/1653887603752554496/h8C0bcgS_400x400.jpg,   #For sending the users image to database
                 })
         return "Client added successfully"  #retur a confirmation message
 
